@@ -1,0 +1,150 @@
+<!--Origin of Slavery-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="style/ofs.css" rel="stylesheet">
+        <title>Origin of Slavery</title>
+    </head>
+    <body>
+<!--Sidebar-->
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn"
+                onclick="closeNav()">
+                
+            </a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a class="active" href="index.html">Home</a>
+                <a href="bpm.html">Black Panther Movement</a>
+                <a href="tools.html">Cruel Tools</a>
+                <a href="emmett.html">Emmett Till</a>
+                <a href="connect.html">Connections</a>
+                <a href="harriet.html">Harriet Tubman</a>
+                <a href="c.j.html">Madam C.J. Walker</a>
+                <a href="ofs.html">Origins of Slavery</a>
+                <a href="paf.html">Pan-African Flag</a>
+                <a href="punishment.html">Punishment</a>
+                <a href="willie.html">Willie Lynch</a>
+        </div>
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776;
+            </button>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById(
+                    "mySidebar").style.width = "200px";
+                document.getElementById(
+                    "main").style.marginLeft = "200px";
+            }
+            /* Set the width of the sidebar to 0
+            and the left margin of the page content to 0 */
+            function closeNav() {
+                document.getElementById(
+                    "mySidebar").style.width = "0";
+                document.getElementById(
+                    "main").style.marginLeft = "0";
+            }
+        </script>
+<!--end for Sidebar-->
+
+<!-- tab Bar-->
+        <div class = "topbar">
+            <a class="active" href="index.html">Home</a>
+            <a href="#feedback">Feedback Form</a>
+            <a href="rian.html">Website Creator</a>
+            <a href="reference.html">References</a>
+        </div>
+<!-- end for tab Bar-->
+<!--Content-->
+        <div class = "heading">
+            <h1 style = "font-family: Copperplate, Papyrus, fantasy">Origins of Slavery</h1>
+        </div>
+        <div class = "ofsimg">
+            <img src = "../site/photos/ofsimg/1619.jpg" alt = "Top Ofs img">
+        </div>
+<!--Timeline-->
+        <div class="timeline">
+            <div class="container left">
+            <div class="content">
+                <h2>1455</h2>
+                <h2>Portuguese in Africa</h2>
+                <p>Portugal was given rights by Pope Nicholas V to 
+                    territories along the West African coast along 
+                    with trade in those areas. This gave them the right 
+                    to invade, raid, and subject their people to a lifetime 
+                    of slavery.</p>
+                    <img src = "../site/photos/ofsimg/pope.jpg" style = "display:block; width: 100%" alt="pope">
+            </div>
+            </div>
+            <div class="container right">
+            <div class="content">
+                <h2>15th Century</h2>
+                <h2>Portuguese and Trade</h2>
+                <p>Portugal had a holding on trade in West Africa while Spain 
+                    held the rights in the New World which they colonized to explore 
+                    for land and gold. These divisions were decided by the Roman Catholic Church.</p>
+            </div>
+            </div>
+            <div class="container left">
+            <div class="content">
+                <h2>1502</h2>
+                <h2>First Shipment</h2>
+                <p>Spain had set sale of their first shipment of enslaved Africans which landed in 
+                    the Island of Hispaniola. Over the next century and a half, to gain geopolitical 
+                    and economic power, the Portuguese, Dutch, French, and English then joined in with 
+                    their slavery systems within American territories. This is well known as the Atlantic 
+                    Slave trade.</p>
+                <img src = "../site/photos/ofsimg/trade.png" style = "display:block; width: 100%" alt="trade">
+            </div>
+            </div>
+            <div class="container right">
+            <div class="content">
+                <h2>1619</h2>
+                <h2>The First 20</h2>
+                <p>This day marked the first documentation of about 20 
+                    Africans stolen from Africa and enslaved, 
+                    arriving in Jamestown, Virginia.</p>
+                <p>The Africans that were brought were from present-day Angola, 
+                    located on the western Atlantic Coast of Southern Africa. 
+                    Around that time though, those Africans were from the kingdom of 
+                    Ndongo in which they spoke Kimbundu.</p>
+                <p>But this was not the start of this practice.</p>
+                <img src = "../site/photos/ofsimg/20.jpg" style = "display:block; width: 100%" alt="20">
+            </div>
+            </div>
+        </div>
+        <div class = "bottom">
+<!--Form-->
+            <div id = "feedback" class="form">
+                <form method="POST" class = "gform" data-email = "rian.watson32@gmail.com"
+                action="https://script.google.com/macros/s/AKfycbw-K4iJUZvItfxACRthATm8HbiWKB3ZuVqajwFODp9NFVB3Cbq3mn7bCX1CJbcFjHTYxA/exec">
+                    <fieldset>
+                        <legend>Contact me: What are your thoughts about the website?</legend>
+                        <div class = "boxn">
+                            <p>
+                                Full name <input type = "text" id = "name" name = "name" placeholder="Enter your name and surname" required="required">
+                            </p>
+                        </div>
+                        <div class = "boxe">
+                            <p>
+                                Email <input type = "text" name = "ID" placeholder="Enter your email address" required="required">
+                            </p>
+                        </div>
+                        <!--For the message box-->
+                            <p>
+                                Message
+                            </p>
+                            <textarea name = "message" id = "ContactCommentt" rows=6 cols=20 placeholder="Enter your message" required="required"></textarea>
+
+                        <!--Submit button-->
+                            <p>
+                            <input type = "submit" name = "Submit" value = "Submit">
+                            </p>
+                        
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+<!-- End of Feedback Form -->
+    </body>
+</html>

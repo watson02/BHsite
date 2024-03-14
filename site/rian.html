@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website creator: Rian</title>
+    <link href = "style/rian.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <!--Background music 
+                <embed name="GoodEnough" src="/music/good_enough.mp3" loop="false" hidden="true" autostart="true">
+        -->
+<!--Sidebar-->
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn"
+          onclick="closeNav()">
+          
+      </a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a class="active" href="index.html">Home</a>
+          <a href="bpm.html">Black Panther Movement</a>
+          <a href="tools.html">Cruel Tools</a>
+          <a href="emmett.html">Emmett Till</a>
+          <a href="connect.html">Connections</a>
+          <a href="harriet.html">Harriet Tubman</a>
+          <a href="c.j.html">Madam C.J. Walker</a>
+          <a href="ofs.html">Origins of Slavery</a>
+          <a href="paf.html">Pan-African Flag</a>
+          <a href="punishment.html">Punishment</a>
+          <a href="willie.html">Willie Lynch</a>
+    </div>
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">&#9776;
+      </button>
+    </div>
+    <script>
+      function openNav() {
+          document.getElementById(
+              "mySidebar").style.width = "200px";
+          document.getElementById(
+              "main").style.marginLeft = "200px";
+      }
+      /* Set the width of the sidebar to 0
+      and the left margin of the page content to 0 */
+      function closeNav() {
+          document.getElementById(
+              "mySidebar").style.width = "0";
+          document.getElementById(
+              "main").style.marginLeft = "0";
+      }
+    </script>
+<!--end for Sidebar-->
+
+<!-- tab Bar-->
+    <div class = "topbar">
+      <a class="active" href="index.html">Home</a>
+      <a href="#feedback">Feedback Form</a>
+      <a href="rian.html">Website Creator</a>
+      <a href="reference.html">References</a>
+    </div>
+<!-- end for tab Bar-->
+
+    <!--Heading top page-->
+    <div id = "heading">
+      <h1><u>Rian A. Watson</u></h1>
+    </div>
+      <div class = "grid-container">
+        
+        <div class="Photo1"><img src="../site/photos/rianimg/watson.jpg" width="450" height="615" alt="watson"></div>
+      
+        <div class="Content1"><p>My name is Rian Watson, I am from Pittsburgh, PA and I am a senior at Allegheny College in Meadville, PA majoring 
+          in Computer Science and minoring in Black Studies. I created this website for my senior project I chose to create this website because I am 
+          interested in web development and/or UI/UX design as a career. Some other projects I have done include a cooking website for a catering business 
+          named BoomGrillx and creating my portfolio from scratch</p>
+          <p>Outside of academics, I am the president and social media chair of two clubs, (Association for the) Advancement of Black Culture abbreviated as ABC 
+            , and Black Girl Magic, abbreviated as BGM. I also was a Summer Orientation Leader for the last two years at the beginning of the fall semesters.</p>
+          <p>To learn more about me and what I have done, check out my <a href="https://docs.google.com/document/d/189lajPLm_A_Fk5m452gwkBkDQsb9AZWNgfwwfZCH2zw/edit">Resume</a> and my Linkedin!!</p>
+          <a href="https://www.linkedin.com/in/rian-watson-3571b7266/"><img src="../site/photos/rianimg/in.png" width="50" height="50" alt="Linkedin Logo"></a>
+          </div>
+        <div class="Content2">
+          <p><i>Education is the most powerful weapon which you can use to change the world.</i>, a quote said by Nelson Mandela. 
+            Black history is a susceptible yet crucial and meaningful topic that all students should learn about. But unfortunately, 
+            the truth is being withheld from students when learning about Black history and American history. This leads to a big 
+            question that this website is answering: What topics within Black history that are not taught in schools? Learning about American 
+            history is essential so we can understand the development of American society and why it is the way it is today. But for us 
+            to properly and thoroughly learn about American history, we must learn about all parts of American history, including Black history. 
+            The motivation behind the project is due to the writer's personal experience, there was a lot left out, not well elaborated on, and 
+            repetitiveness when it came to talking about topics involving Black history in school before college. From this, the writer feels like 
+            a lot of other students can relate. The objective of the website is to fill in the gaps that the American school system failed to fill.
+            Much like other Black history websites such as the <i>Blackpast</i> website, <i>The National Museum of African American History and Culture </i>website, 
+            and the <i>Blackfacts </i>website. The project is to be informative, and educational, and help people see Black history in a different light.</p></div>  
+        <div class="Content3"><img src="../site/photos/rianimg/rian1.jpg" width="450" height="615" alt="rian"></div>
+        <div class="Content4"></div>
+        <div class="Content5"></div>
+        <div class="Content6"></div>
+        <div class="Content37"></div>
+    </div>
+    <div class="bottom">
+<!--Form-->
+                  <div id = "feedback" class="form">
+                      <form method="POST" class = "gform" data-email = "rian.watson32@gmail.com"
+                      action="https://script.google.com/macros/s/AKfycbw-K4iJUZvItfxACRthATm8HbiWKB3ZuVqajwFODp9NFVB3Cbq3mn7bCX1CJbcFjHTYxA/exec">
+                          <fieldset>
+                              <legend>Contact me: What are your thoughts about the website?</legend>
+                              <div class = "boxn">
+                                  <p>
+                                      Full name <input type = "text" id = "name" name = "name" placeholder="Enter your name and surname" required="required">
+                                  </p>
+                              </div>
+                              <div class = "boxe">
+                                  <p>
+                                      Email <input type = "text" name = "ID" placeholder="Enter your email address" required="required">
+                                  </p>
+                              </div>
+                              <!--For the message box-->
+                                  <p>
+                                      Message
+                                  </p>
+                                  <textarea name = "message" id = "ContactCommentt" rows=6 cols=20 placeholder="Enter your message" required="required"></textarea>
+      
+                              <!--Submit button-->
+                                  <p>
+                                  <input type = "submit" name = "Submit" value = "Submit">
+                                  </p>
+                              
+                          </fieldset>
+                      </form>
+                  </div>
+              </div>
+      <!-- End of Feedback Form -->
+  </body>
+</html>
